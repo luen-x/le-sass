@@ -1,0 +1,14 @@
+{
+  "name": "@lawrence666/le-sass",
+  "version": "1.0.1",
+  "description": "sass helper",
+  "main": "src/index.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build":"sass ./src/index.scss ./dist/main.css --style compressed ",
+    "build-expand":"sass ./src/index.scss ./dist/main-expand.css --style expanded "
+
+  },
+  "author": "luen",
+  "license": "ISC"
+}

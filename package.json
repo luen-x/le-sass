@@ -1,12 +1,13 @@
 {
   "name": "@lawrence666/le-sass",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "description": "sass helper",
-  "main": "src/index.scss",
+  "main": "dist/main.css",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "build":"sass ./src/index.scss ./dist/main.css --style compressed ",
-    "build-expand":"sass ./src/index.scss ./dist/main-expand.css --style expanded "
+    "build-expand":"sass ./src/index.scss ./dist/main-expand.css --style expanded ",
+    "pub":"npm publish --access public"
 
   },
   "author": "luen",

@@ -55,13 +55,13 @@
 .g-inline-flex{
 	display: inline-flex
 }
+
 .g-flex {
 	display: flex;
 }
 .g-jc-c {
 	display: flex;
 	justify-content: center;
-	
 }
 .g-jc-sb {
 	display: flex;
@@ -70,6 +70,10 @@
 .g-jc-sa {
 	display: flex;
 	justify-content: space-around;
+}
+.g-ai-c {
+	display: flex;
+	align-items: center;
 }
 .g-fd-c {
 	display: flex;
@@ -80,3 +84,40 @@
 	justify-content: center;
 	align-items: center;
 }
+.g-flex-auto,.g-flex-1 {
+	flex: 1 1 auto;
+}
+.g-flex-none,.g-flex-0 {
+	flex: 0 0 auto;
+}
+.g-flex-wrap {
+	flex-wrap: wrap;
+}
+
+.g-tc {
+	text-align: center;
+}
+.g-tl {
+	text-align: left;
+}
+.g-tr {
+	text-align: right;
+}
+
+.g-fr {
+	float: right;
+}
+.g-fl {
+	float: left;
+}
+
+.g-relative {
+	position: relative;
+}
+.g-absolute {
+	position: absolute;
+}
+.g-fixed {
+	position: fixed;
+}
+

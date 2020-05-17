@@ -26,35 +26,30 @@ body {
 	box-sizing: border-box;
 }
 
-/**
- * g-reset
- * 用户初始化元素的类
- */
-.g-reset {
-	ol, ul, li {
-		list-style: none;
+
+ol, ul, li {
+	list-style: none;
+}
+a {
+	text-decoration: none;
+	&, &:visited, &:hover {
+		color: inherit;
 	}
-	a {
-		text-decoration: none;
-		&, &:visited, &:hover {
-			color: inherit;
-		}
-	}
-	img {
-		vertical-align: middle;
-		// max-width: 100%;
-	}
-	.inline {
-		display: inline;
-	}
-	i, b, span {
-		font-weight: normal;
-		font-style: normal;
-	}
-	input, textarea {
-		outline: none;
-	}
-	button {
-		outline-style: none;
-	}
+}
+img {
+	vertical-align: middle;
+	// max-width: 100%;
+}
+.inline {
+	display: inline;
+}
+i, b, span {
+	font-weight: normal;
+	font-style: normal;
+}
+input, textarea {
+	outline: none;
+}
+button {
+	outline-style: none;
 }

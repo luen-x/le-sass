@@ -1,6 +1,6 @@
 {
   "name": "@lawrence666/le-sass",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "sass helper",
   "main": "dist/main.css",
   "scripts": {
